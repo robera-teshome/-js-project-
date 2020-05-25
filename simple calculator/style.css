@@ -1,0 +1,21 @@
+
+
+
+.display{
+   color:black ;
+   border: black;
+   width: 100%;
+   height: 20px;
+}
+.number{
+    width: 70px;
+    height: 55px;
+    background-color: black;
+    color: white;
+}
+.oprator{
+    width: 70px;
+    height: 55px;
+    background-color: gray;
+    color: white;
+}

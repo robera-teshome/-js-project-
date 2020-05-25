@@ -4,19 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="bootstrap-4.4.1/js/bootstrap.bundle.min.js" text="javascript"></script>
+
     <script src="bootstrap-4.4.1/js/popper.min.js" text="javascript"></script>
     <script src="bootstrap-4.4.1/js/jquery.min.js" text="javascript"></script>
-    <link rel="stylesheet" href="bootstrap-4.4.1/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="bootstrap-4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"/> 
 </head>
 <body>
     
-    <div class="container-fluide">
+    <div class="container-fluid" style="width:50%; border-color: blue; border-width:3px;" align="center" >
 
-        <div class="contener">
-  
+        <div class="container-fluid">
+
+            <input id="input" class="row form-control" style="text-align:right;color:back;font-size:35px;"  type="text" />
             
-        </div>
+            <table class="table">
+
+                <tbody>
+
+                  <tr>
+                    <td><button type="button" class="btn btn-outline-primary oprator">M+</button></td>
+                    <td><button type="button" class="btn btn-outline-primary oprator">M-</button></td>
+                    <td><button type="button" class="btn btn-outline-primary oprator">MRC</button></td>
+                    <td><button type="button" class="btn btn-outline-primary oprator">GT</button></td>
+                    <td><button type="button" class="btn btn-outline-primary oprator ">CE</button></td>
+                  </tr>
+                  <tr>
+                    <td ><button type="button" class="btn btn-outline-primary number">7</button></td>
+                    <td ><button type="button" class="btn btn-outline-primary number">8</button></td>
+                    <td ><button type="button" class="btn btn-outline-primary number">9</button></td>
+                    <td  ><button type="button" class="btn btn-outline-primary oprator ">/</button></td>
+                    <td  ><button type="button" class="btn btn-outline-primary oprator">@</button></td>
+                  </tr>
+                  <tr>
+                    <td ><button type="button" class="btn btn-outline-primary number">4</button></td>
+                    <td ><button type="button" class="btn btn-outline-primary number">5</button></td>
+                    <td ><button type="button" class="btn btn-outline-primary number">6</button></td>
+                    <td ><button type="button" class="btn btn-outline-primary oprator">x</button></td>
+                    <td ><button type="button" class="btn btn-outline-primary oprator">%</button></td>
+                  </tr>
+                  <tr>
+                    <td ><button type="button" class="btn btn-outline-primary number">1</button></td>
+                    <td ><button type="button" class="btn btn-outline-primary number">2</button></td>
+                    <td ><button type="button" class="btn btn-outline-primary number">3</button></td>
+                    <td ><button type="button" class="btn btn-outline-primary oprator ">-</button></td>
+                    <td ><button type="button" class="btn btn-outline-primary oprator ">MU</button></td>
+                  </tr>
+                  <tr>
+                    <td ><button type="button" class="btn btn-outline-primary number">0</button></td>
+                    <td ><button type="button" class="btn btn-outline-primary number">00</button></td>
+                    <td ><button type="button" class="btn btn-outline-primary number">.</button></td>
+                    <td><button type="button" class="btn btn-outline-primary oprator " >+</button></td>
+                    <td><button type="button" class="btn btn-outline-primary oprator ">=</button></td>
+                  </tr>
+        
+                </tbody>
+              </table>
+         </div>
 
     </div>
           
